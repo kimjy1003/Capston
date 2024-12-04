@@ -17,8 +17,8 @@ data2=data2[:,:,-1]
 plt.figure(figsize=(12, 6))
 
 # 실제값 그래프
-plt.plot(data1[:, -1], label='pred', color='red', alpha=0.7)
-plt.plot(data2[:, -1], label='True', color='blue', alpha=0.7)
+plt.plot(data1[:, 0], label='pred', color='red', alpha=0.7)
+plt.plot(data2[:, 0], label='True', color='blue', alpha=0.7)
 # 그래프 제목 및 레이블 추가
 plt.title('Pred vs True')
 plt.xlabel('Time Steps')
