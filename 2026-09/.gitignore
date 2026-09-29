@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# 학습 산출물 (저장소에 커밋하지 않는다)
+exp/ETT_checkpoints/
+exp/ett_results/
+event/
+*.pth
+*.bin
+
+# 결과 JSON은 노트북을 돌릴 때마다 새로 생기므로 최종 표만 남긴다
+results/*.json
+!results/final_table.csv
+!results/final_table.md
+
+# 환경
+.venv/
+venv/
+.env
