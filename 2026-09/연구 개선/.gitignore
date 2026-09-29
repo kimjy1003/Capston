@@ -1,0 +1,3 @@
+# 실행할 때마다 새로 생기는 상세 결과. 표(direction_table.md / .csv)만 커밋한다.
+results/*.json
+results/*.npz
